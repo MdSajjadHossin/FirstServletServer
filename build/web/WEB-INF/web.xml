@@ -8,12 +8,13 @@
     <!---Servlet Declaration-->
     <servlet>
         <servlet-name>first</servlet-name>
-        <servlet-class>com.servlet.FirstServlet</servlet-class>
+        <servlet-class>com.servlets.FirstServlet</servlet-class>
     </servlet>
+    
      <!--second servlet-->
     <servlet>
         <servlet-name>second</servlet-name>
-        <servlet-class>com.servlet.SecondServletClass</servlet-class>
+        <servlet-class>com.servlets.SecondServlet</servlet-class>
     </servlet>
     
     
@@ -23,11 +24,12 @@
         <servlet-name>first</servlet-name>
         <url-pattern>/web</url-pattern>
     </servlet-mapping>
-    <!--second dervlet-->
-    <Servlet-mapping>
+    
+    <!--second servlet-->
+    <servlet-mapping>
         <servlet-name>second</servlet-name>
         <url-pattern>/generic</url-pattern>
-    </Servlet-mapping>
+    </servlet-mapping>
     
     
     
